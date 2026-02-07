@@ -1,9 +1,10 @@
 'use client'
+import { Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { CheckCircle, Package, Home } from 'lucide-react'
 
-export default function OrderSuccessPage() {
+function OrderSuccessContent() {
   const searchParams = useSearchParams()
   const orderNumber = searchParams.get('order')
 
@@ -27,5 +28,13 @@ export default function OrderSuccessPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function OrderSuccessPage() {
+  return (
+    <Suspense fallback={<div className="section min-h-screen flex items-center justify-center"><div className="text-xl">Loading...</div></div>}>
+      <OrderSuccessContent />
+    </Suspense>
   )
 }
