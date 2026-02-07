@@ -1,0 +1,10 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#fafafa"/>
+  <rect x="210" y="150" width="380" height="440" rx="28" fill="#7f8c8d"/>
+  <ellipse cx="400" cy="650" rx="175" ry="78" fill="#95a5a6"/>
+  <line x1="300" y1="190" x2="300" y2="560" stroke="#5a6266" stroke-width="3" stroke-dasharray="18,10"/>
+  <line x1="400" y1="190" x2="400" y2="560" stroke="#5a6266" stroke-width="3" stroke-dasharray="18,10"/>
+  <line x1="500" y1="190" x2="500" y2="560" stroke="#5a6266" stroke-width="3" stroke-dasharray="18,10"/>
+  <rect x="310" y="310" width="180" height="70" rx="12" fill="#2c3e50"/>
+  <text x="400" y="355" font-size="34" font-weight="bold" fill="white" text-anchor="middle">SCORPIO N</text>
+</svg>

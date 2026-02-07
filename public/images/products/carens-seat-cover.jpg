@@ -1,0 +1,10 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#ffffff"/>
+  <rect x="215" y="155" width="370" height="435" rx="26" fill="#34495e"/>
+  <ellipse cx="400" cy="645" rx="172" ry="76" fill="#2c3e50"/>
+  <line x1="305" y1="195" x2="305" y2="555" stroke="#1a252f" stroke-width="2" stroke-dasharray="16,9"/>
+  <line x1="400" y1="195" x2="400" y2="555" stroke="#1a252f" stroke-width="2" stroke-dasharray="16,9"/>
+  <line x1="495" y1="195" x2="495" y2="555" stroke="#1a252f" stroke-width="2" stroke-dasharray="16,9"/>
+  <rect x="320" y="315" width="160" height="65" rx="10" fill="#DC2626"/>
+  <text x="400" y="358" font-size="32" font-weight="bold" fill="white" text-anchor="middle">CARENS</text>
+</svg>

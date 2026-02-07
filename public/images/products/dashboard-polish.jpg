@@ -1,0 +1,12 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#f0f0f0"/>
+  <ellipse cx="400" cy="550" rx="120" ry="30" fill="#ccc" opacity="0.3"/>
+  <rect x="320" y="220" width="160" height="320" rx="15" fill="#3498db"/>
+  <rect x="330" y="230" width="140" height="240" rx="10" fill="#2980b9"/>
+  <circle cx="400" cy="190" r="35" fill="#2c3e50"/>
+  <rect x="385" y="175" width="30" height="35" rx="5" fill="#34495e"/>
+  <text x="400" y="370" font-size="28" font-weight="bold" fill="white" text-anchor="middle">DASHBOARD</text>
+  <text x="400" y="410" font-size="24" fill="white" text-anchor="middle">POLISH</text>
+  <text x="400" y="450" font-size="20" fill="#ecf0f1" text-anchor="middle">250ml</text>
+  <circle cx="400" cy="350" r="50" fill="none" stroke="white" stroke-width="3" opacity="0.3"/>
+</svg>

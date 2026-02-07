@@ -1,0 +1,18 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="fabric" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="20" height="20" fill="#7f8c8d"/>
+      <circle cx="10" cy="10" r="1" fill="#95a5a6"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="#ecf0f1"/>
+  <path d="M 150 400 Q 400 200 650 400 L 650 550 Q 400 750 150 550 Z" fill="url(#fabric)"/>
+  <path d="M 150 400 Q 400 220 650 400" stroke="#5a6266" stroke-width="4" fill="none"/>
+  <ellipse cx="300" cy="420" rx="40" ry="35" fill="#34495e" opacity="0.6"/>
+  <ellipse cx="500" cy="420" rx="40" ry="35" fill="#34495e" opacity="0.6"/>
+  <rect x="320" y="380" width="160" height="80" rx="10" fill="#2c3e50" opacity="0.7"/>
+  <text x="400" y="415" font-size="28" font-weight="bold" fill="white" text-anchor="middle">WATERPROOF</text>
+  <text x="400" y="445" font-size="22" fill="#ecf0f1" text-anchor="middle">CAR COVER</text>
+  <path d="M 200 480 L 600 480" stroke="#5a6266" stroke-width="3" stroke-dasharray="15,10"/>
+  <path d="M 220 520 L 580 520" stroke="#5a6266" stroke-width="3" stroke-dasharray="15,10"/>
+</svg>

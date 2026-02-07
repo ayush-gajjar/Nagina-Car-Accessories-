@@ -1,0 +1,40 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="keyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="800" fill="#f8f9fa"/>
+  
+  <!-- Key fob body -->
+  <rect x="250" y="200" width="300" height="400" rx="40" fill="url(#keyGrad)" filter="url(#shadow)"/>
+  <rect x="265" y="215" width="270" height="370" rx="30" fill="#34495e"/>
+  
+  <!-- Tata logo area -->
+  <ellipse cx="400" cy="320" rx="80" ry="80" fill="#DC2626"/>
+  <text x="400" y="340" font-family="Arial" font-size="48" font-weight="bold" fill="white" text-anchor="middle">TATA</text>
+  
+  <!-- Buttons -->
+  <circle cx="320" cy="480" r="25" fill="#7f8c8d"/>
+  <circle cx="400" cy="480" r="25" fill="#7f8c8d"/>
+  <circle cx="480" cy="480" r="25" fill="#7f8c8d"/>
+  <circle cx="400" cy="540" r="25" fill="#7f8c8d"/>
+  
+  <!-- Button icons -->
+  <text x="320" y="490" font-family="Arial" font-size="24" fill="white" text-anchor="middle">🔒</text>
+  <text x="400" y="490" font-family="Arial" font-size="24" fill="white" text-anchor="middle">🔓</text>
+  <text x="480" y="490" font-family="Arial" font-size="24" fill="white" text-anchor="middle">🚗</text>
+  <text x="400" y="550" font-family="Arial" font-size="24" fill="white" text-anchor="middle">🔑</text>
+  
+  <!-- Keyring -->
+  <circle cx="400" cy="630" r="30" fill="none" stroke="#95a5a6" stroke-width="8"/>
+  <rect x="410" y="615" width="8" height="30" fill="#95a5a6"/>
+  
+  <!-- Racing stripe -->
+  <rect x="385" y="200" width="30" height="400" fill="#3498db" opacity="0.3" rx="15"/>
+</svg>
